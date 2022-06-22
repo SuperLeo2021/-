@@ -7,14 +7,20 @@
 '''
  void makeTexture(void)
 {
+'''
+'''
 	int i;
 	for (i = 0; i < TEXTUREWIDTH; i++)
+'''
 	{
+'''
 		Texture[3 * i] = 255;
 		Texture[3 * i + 1] = 255 - 2 * i;
 		Texture[3 * i + 2] = 255;
+'''
 	}
 }   
+'''
 '''
 ### 演示实例：
 >紫色演示  
